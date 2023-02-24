@@ -9,6 +9,12 @@
             padding: 0;
             border: 0;
         }
+	article {
+		background-color: white;
+		padding: 20px;
+		border-radius: 5px;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+      }
 
         html {
             width: 100%;
@@ -46,6 +52,20 @@
 </head>
 
 <body>
+	article>
+        <h1>My First Blog Post</h1>
+        <img src="https://example.com/image.jpg" alt="A beautiful image">
+        <h2>A Subheading</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit ultrices risus, eu accumsan nibh hendrerit sed. Aenean eget enim in lorem hendrerit interdum.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce suscipit ultrices risus, eu accumsan nibh hendrerit sed. Aenean eget enim in lorem hendrerit interdum.</p>
+        <ul>
+          <li>List item 1</li>
+          <li>List item 2</li>
+          <li>List item 3</li>
+        </ul>
+	
+      </article>
+
 
 	<div id="coral_talk_stream"></div>
 	<script src="http://127.0.0.1:3000/static/embed.js" async onload="Coral.Talk.render(document.getElementById('coral_talk_stream'), {
